@@ -1,2 +1,2 @@
 # Estudos
- Este repositório contém algumas anotações e código. Apenas rascunhos, nada sério.
+ Este repositório contém algumas anotações e códigos. Apenas rascunhos, nada sério.
