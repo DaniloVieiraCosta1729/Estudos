@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="apply-css.css">
+    <title>Aplicando o CSS3</title>
+</head>
+<body>
+    <h1 class="center">Como o CSS é aplicado a uma página?</h1>
+    <h2>Existem três formas de aplicar o CSS em uma página:</h2>
+    <p>(Inline) Em que nos aplicamos a folha de estilo diretamente a um elemento do HTML. Para aplicar o CSS dessa forma, devemos, na abertura do elemento HTML, escrever a chave style e então dar o seu valor conforme mostra o exemplo: &lt;h1 style="color= blue; background-color= black;"&gt; &lt;/h1&gt;. Esta é a pior forma de se aplicar o CSS. Evite, sempre que possível, usá-lo desta maneira. Os problemas dessa forma de implementação é que além de ser o exato oposto das boas práticas, ele é extremamente improdutivo, pois se houver a necessídade de se alterar o estilo de um elemente, teremos que mudar todos os elementos do mesmo tipo. A manutenção se torna quase impossível. Outro problema é que estamos misturando os códigos HTML e CSS o que torna o código difícil de ler e mais fácil de se confundir. Infelizmente, em alguns momentos, só temos permissão de alterar o elemento &lt;body&gt; do HTML, portanto, precisamos recorrer a esta forma; </p>
+    <p> (Internal Style Sheet) Em que o código CSS é escrito entre as tags &lt;style&gt; e &lt;/style&gt; no próprio documento html. A vantagem dessa forma de implementação é que você pode modificar uma página específica diretamente e também que, se você não tiver acesso ao arquivo CSS que dá o estilo à página, então você pode sobre escrever o estilo com esse tipo de implementação. O problema é que a manutenção do sistema fica muito mais difícil e se houver mudanças em uma página, então será necessário alterar todas as outras manualmente diminuindo gravemente a produtividade; </p>
+    <p> (External Style Sheet) Em que o código CSS é escrito em um arquivo próprio para ele, isto é, em um arquivo de extesão ".css". É, de longe, a forma mais produtiva de se escrever CSS, pois o estilo criado pode ser usado em qualquer arquivo HTML. Para implementar o CSS de uma folha externa é necessário usar a tag &lt;link&gt;</p>
+
+</body>
+</html>
