@@ -7,3 +7,9 @@
     margin-right: auto;
     width: max-content;
 }
+.textalign {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
