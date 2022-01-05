@@ -1,8 +1,12 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
 }
 a {
-    color: rgb(241, 237, 0);
+    color: rgb(3, 4, 31);
+}
+a:hover {
+    color: rgb(42, 28, 168);
 }
 body {
     background: rgb(26, 27, 27);
@@ -15,6 +19,9 @@ h1 {
 }
 h2 {
     color: rgb(255, 255, 255);
+}
+div {
+    background-color: rgb(255, 255, 255);
 }
 .textalign {
     text-align: center;
