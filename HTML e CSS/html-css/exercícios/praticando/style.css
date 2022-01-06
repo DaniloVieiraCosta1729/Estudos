@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: antiquewhite;
+}
+div {
+    background: linear-gradient(120deg, #a5d4d0,#b4686e);
+}
+nav {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: chartreuse;
+    border-style: solid;
+}
