@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var nome = prompt('Qual é o seu nome?', 'digite');
+        if (nome == null || nome == ''){
+            nome = 'Sem Nome';
+        }
+        a = nome + ', deseja que eu diga Hello World?';
+        var b = confirm(a);
+        if (b == true){
+            alert('Hello World!');
+    }
+    else {
+        document.write('<h1>Não sei o que dizer...<\h1>');
+    }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
