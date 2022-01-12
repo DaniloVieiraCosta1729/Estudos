@@ -4,6 +4,10 @@
 body {
     background: linear-gradient(120deg, #9ad8d0, #d9e3e4);
 }
+img {
+    width: auto;
+    height: auto;
+}
 .textalign {
     text-align: center;
 }
