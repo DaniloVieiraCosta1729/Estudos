@@ -22,3 +22,9 @@ class Vetor:
         cy = self.escalar(Vetor(0, 1, 0)) / self.modulo()
         cz = self.escalar(Vetor(0, 0, 1)) / self.modulo()
         return f'cos(a) = {cx}, cos(b) = {cy}, cos(c) = {cz}'
+
+# Eu poderia ter usado arrays ou listas como input da função init, porque assim seria mais fácil de simular
+# um espaço vetorial. Essa classe poderia ter um método soma, e outro método para o produto com relação a um
+# escalar, cujo o resultado seria um novo vetor, i.e, teriamos o axioma de fecho da soma e do produto 
+# "funcionando". Mas esse arquivo é apenas um exemplo de aplicação das classes em python, portanto, não
+# há necessidade de alterar o exercício.

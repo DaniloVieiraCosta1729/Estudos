@@ -1,4 +1,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
     text-align: center;
+}
+p {
+    border: solid 2px red ;
+    border-bottom: dashed 4px rgb(49, 0, 128);
 }
