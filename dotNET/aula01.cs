@@ -2,7 +2,6 @@ using System;
 
     class Principal{
         static void Main(){
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Console.Write("Hello World!");
         }
     }
