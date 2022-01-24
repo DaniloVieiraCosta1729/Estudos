@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula02\\aula02.csproj",
-      "projectName": "aula02",
-      "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula02\\aula02.csproj",
+      "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\Genéricos\\Genéricos.csproj",
+      "projectName": "Genéricos",
+      "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\Genéricos\\Genéricos.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula02\\obj\\",
+      "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\Genéricos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config"
