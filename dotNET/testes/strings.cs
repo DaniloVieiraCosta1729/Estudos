@@ -3,7 +3,7 @@ using System;
 
 class Teste_String
 {
-    static void main()
+    static void Main()
     {
         int numero = 20 + 80;
         Console.WriteLine($"Há {numero}% de chance disso funcionar.");

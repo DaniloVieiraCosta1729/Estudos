@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj": {}
+    "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\web\\MyMVCApplication\\MyMVCApplication\\MyMVCApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj": {
+    "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\web\\MyMVCApplication\\MyMVCApplication\\MyMVCApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj",
-        "projectName": "testes",
-        "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\web\\MyMVCApplication\\MyMVCApplication\\MyMVCApplication.csproj",
+        "projectName": "MyMVCApplication",
+        "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\web\\MyMVCApplication\\MyMVCApplication\\MyMVCApplication.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\obj\\",
+        "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\web\\MyMVCApplication\\MyMVCApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -50,6 +50,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

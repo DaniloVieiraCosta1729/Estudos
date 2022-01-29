@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj",
-      "projectName": "testes",
-      "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\testes.csproj",
+      "projectUniqueName": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula20\\aula20.csproj",
+      "projectName": "aula20",
+      "projectPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula20\\aula20.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\testes\\obj\\",
+      "outputPath": "C:\\Users\\danil\\Documents\\Repositorio\\Estudo\\Estudos\\dotNET\\aula20\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",

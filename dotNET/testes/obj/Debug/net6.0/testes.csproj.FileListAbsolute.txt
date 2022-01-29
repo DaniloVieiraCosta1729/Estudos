@@ -1,0 +1,15 @@
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.csproj.AssemblyReference.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.AssemblyInfoInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.AssemblyInfo.cs
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.csproj.CoreCompileInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\testes.exe
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\testes.deps.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\testes.runtimeconfig.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\testes.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\ref\testes.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\bin\Debug\net6.0\testes.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\ref\testes.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\testes\obj\Debug\net6.0\testes.genruntimeconfig.cache

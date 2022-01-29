@@ -1,0 +1,15 @@
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\aula20.exe
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\aula20.deps.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\aula20.runtimeconfig.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\aula20.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\ref\aula20.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\bin\Debug\net6.0\aula20.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.csproj.AssemblyReference.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.AssemblyInfoInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.AssemblyInfo.cs
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.csproj.CoreCompileInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\ref\aula20.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\aula20\obj\Debug\net6.0\aula20.genruntimeconfig.cache
