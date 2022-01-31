@@ -9,21 +9,79 @@ namespace aula1
     {
         public static void Main()
         {
+            AnalistaDeTI analistaDeTI = new AnalistaDeTI();
+            Gerente gerente = new Gerente();
+            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            GerenteDeTI gerenteDeTI = new GerenteDeTI();
+
+            analistaDeTI.nome = "Nal do Canal";
+            analistaDeTI.salario = 3000;
+
+            System.Console.WriteLine($"O salário de {analistaDeTI.nome} é R$ {analistaDeTI.salario}");
+
+            analistaDeTI.reajustar();
+
+            System.Console.WriteLine($"Agora o salário de {analistaDeTI.nome} é de R$ {analistaDeTI.salario}");
+
+            System.Console.WriteLine($"======================================================================");
+            
+            gerente.nome = "Chosen Undead";
+            gerente.salario = 8000;
+
+            System.Console.WriteLine($"O salário de {gerente.nome} é R$ {gerente.salario}");
+
+            gerente.reajustar();
+
+            System.Console.WriteLine($"Agora o salário de {gerente.nome} é de R$ {gerente.salario}");
+
+            System.Console.WriteLine($"======================================================================");
+            
+            gerenteDeAgencia.nome = "Nanami Kento";
+            gerenteDeAgencia.salario = 8000;
+
+            System.Console.WriteLine($"O salário de {gerenteDeAgencia.nome} é R$ {gerenteDeAgencia.salario}");
+
+            gerenteDeAgencia.reajustar();
+
+            System.Console.WriteLine($"Agora o salário de {gerenteDeAgencia.nome} é de R$ {gerenteDeAgencia.salario}");
+
+            System.Console.WriteLine($"======================================================================");
+            
+            gerenteDeTI.nome = "Chosen Undead";
+            gerenteDeTI.salario = 8000;
+
+            System.Console.WriteLine($"O salário de {gerenteDeTI.nome} é R$ {gerenteDeTI.salario}");
+
+            gerenteDeTI.reajustar();
+
+            System.Console.WriteLine($"Agora o salário de {gerenteDeTI.nome} é de R$ {gerenteDeTI.salario}");
+
+            // ContaPoupança contaP1 = new ContaPoupança(123, 700);
+            // contaP1.deposita(3500);
+
+            // System.Console.WriteLine($"O saldo da sua conta poupança é {contaP1.consultaSaldoDisponivel()}");
+
+            // Conta conta1 = new Conta(123, 500);
+            // Conta conta2 = new Conta(456, 800);
+            // Conta conta3 = new Conta(789, 900);
+
+            // System.Console.WriteLine($"Até o momento foram criadas {Conta.totalContasCriadas} contas.");
+
             // Criando um objeto de cada classe.
-            CartaoDeCredito	cartao1 = new CartaoDeCredito();
-            Cliente cliente1 = new Cliente();
+            // CartaoDeCredito	cartao1 = new CartaoDeCredito();
+            // Cliente cliente1 = new Cliente();
 
             // Adicionando nome do cliente.
-            cliente1.nome = "Pu-kemon! Eu vou lhe achar Pikemon.";
+            // cliente1.nome = "Pu-kemon! Eu vou lhe achar Pikemon.";
 
             // Adicionando número e data de validade do cartão de credito.
-            cartao1.numero = "1123581321";
-            cartao1.dataDeValidade = "02/2025";
-            cartao1.cliente = cliente1;
+            // cartao1.numero = "1123581321";
+            // cartao1.dataDeValidade = "02/2025";
+            // cartao1.cliente = cliente1;
 
-            System.Console.WriteLine($"O nome do cliente é {cartao1.cliente.nome}");
-            System.Console.WriteLine($"O número do cartão é {cartao1.numero}");
-            System.Console.WriteLine($"A data de validade do cartão é {cartao1.dataDeValidade}");
+            // System.Console.WriteLine($"O nome do cliente é {cartao1.cliente.nome}");
+            // System.Console.WriteLine($"O número do cartão é {cartao1.numero}");
+            // System.Console.WriteLine($"A data de validade do cartão é {cartao1.dataDeValidade}");
 
             // Para criarmos um objeto, nós precisamos criar uma instância da class Conta
             // Conta conta1 = new Conta(001); // é dessa forma que instaciamos a classe Conta. Acabamos de criar um objeto.

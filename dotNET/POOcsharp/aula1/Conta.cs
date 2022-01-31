@@ -11,6 +11,7 @@ namespace aula1
         {
             this.numero= x;
             this.limite = y;
+            Conta.totalContasCriadas++;
         }
 
         // O nosso modelo de conta terá apenas três ATRIBUTOS: saldo, limite e número.
@@ -19,6 +20,9 @@ namespace aula1
         // a palavra set indicia que podemos adicionar algum valor para o atributo saldo.
         public double limite {get; private set;} // criando o atributo "limite";
         public int numero {get; private set;}
+        public static int totalContasCriadas {get; set;} // Perceba que esse atributo pertence a classe e não ao objeto 
+        // que é instaciado pelo classe, portanto, dizemos que ele é ESTÁTICO. Para declarar um atributo ou método
+        // estático, usamos a palavra chave "static".
 
         // vamos criar um MÉTODO para que seja possível fazer depositos.
         public void deposita(double x)
