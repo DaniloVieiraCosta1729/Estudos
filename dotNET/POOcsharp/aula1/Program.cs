@@ -26,7 +26,7 @@ namespace aula1
             System.Console.WriteLine($"A data de validade do cartão é {cartao1.dataDeValidade}");
 
             // Para criarmos um objeto, nós precisamos criar uma instância da class Conta
-            // Conta conta1 = new Conta(001); // é dessa forma que instaciamos a classe Conta. Acabomos de criar um objeto.
+            // Conta conta1 = new Conta(001); // é dessa forma que instaciamos a classe Conta. Acabamos de criar um objeto.
             // Conta conta2 = new Conta(002);
 
             // conta1.saldo = 1500; // O "set" nos permite atribuir um valor a esse atributo do objeto "conta1" =D
