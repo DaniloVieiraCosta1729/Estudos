@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace POO
+namespace aula1
 {
-    class Cliente
+    public class Cliente
     {
         public string nome {get; set;}
     }

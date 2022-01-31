@@ -9,9 +9,25 @@ namespace aula1
     {
         public static void Main()
         {
+            // Criando um objeto de cada classe.
+            CartaoDeCredito	cartao1 = new CartaoDeCredito();
+            Cliente cliente1 = new Cliente();
+
+            // Adicionando nome do cliente.
+            cliente1.nome = "Pu-kemon! Eu vou lhe achar Pikemon.";
+
+            // Adicionando número e data de validade do cartão de credito.
+            cartao1.numero = "1123581321";
+            cartao1.dataDeValidade = "02/2025";
+            cartao1.cliente = cliente1;
+
+            System.Console.WriteLine($"O nome do cliente é {cartao1.cliente.nome}");
+            System.Console.WriteLine($"O número do cartão é {cartao1.numero}");
+            System.Console.WriteLine($"A data de validade do cartão é {cartao1.dataDeValidade}");
+
             // Para criarmos um objeto, nós precisamos criar uma instância da class Conta
-            Conta conta1 = new Conta(001); // é dessa forma que instaciamos a classe Conta. Acabomos de criar um objeto.
-            Conta conta2 = new Conta(002);
+            // Conta conta1 = new Conta(001); // é dessa forma que instaciamos a classe Conta. Acabomos de criar um objeto.
+            // Conta conta2 = new Conta(002);
 
             // conta1.saldo = 1500; // O "set" nos permite atribuir um valor a esse atributo do objeto "conta1" =D
             // conta1.limite = 500;
@@ -21,14 +37,14 @@ namespace aula1
             // conta2.limite = 600;
             // conta2.numero = 456;
 
-            conta1.deposita(50);
-            conta1.deposita(2000);
-            conta1.deposita(7121);
-            conta1.adicionarLimite(1500);
-            conta1.saca(50000);
-            conta1.saca(1300);
+            // conta1.deposita(50);
+            // conta1.deposita(2000);
+            // conta1.deposita(7121);
+            // conta1.adicionarLimite(1500);
+            // conta1.saca(50000);
+            // conta1.saca(1300);
 
-            System.Console.WriteLine($"O seu saldo disponível é {conta1.consultaSaldoDisponivel()}");
+            // System.Console.WriteLine($"O seu saldo disponível é {conta1.consultaSaldoDisponivel()}");
 
             /*
                 Existe um problema grave com o nosso código. O problema é que o atributo "saldo" é acessivel ao
@@ -54,9 +70,9 @@ namespace aula1
 
             */
 
-            System.Console.WriteLine($"Seu limite é {conta1.limite}");
-            System.Console.WriteLine($"O número da sua conta é: {conta1.numero}");
-            System.Console.WriteLine($"O limite de conta2 é {conta2.limite}");
+            // System.Console.WriteLine($"Seu limite é {conta1.limite}");
+            // System.Console.WriteLine($"O número da sua conta é: {conta1.numero}");
+            // System.Console.WriteLine($"O limite de conta2 é {conta2.limite}");
         }
     }
 }
