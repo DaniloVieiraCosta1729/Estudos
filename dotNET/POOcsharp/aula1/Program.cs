@@ -9,52 +9,63 @@ namespace aula1
     {
         public static void Main()
         {
-            AnalistaDeTI analistaDeTI = new AnalistaDeTI();
-            Gerente gerente = new Gerente();
-            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
-            GerenteDeTI gerenteDeTI = new GerenteDeTI();
+            ContaPoupança contaP = new ContaPoupança(001, 0);
+            ContaCorrente contaC = new ContaCorrente(001, 100);
 
-            analistaDeTI.nome = "Nal do Canal";
-            analistaDeTI.salario = 3000;
+            contaP.deposita(500);
+            contaC.deposita(200);
+            contaP.saca(50);
 
-            System.Console.WriteLine($"O salário de {analistaDeTI.nome} é R$ {analistaDeTI.salario}");
+            Console.WriteLine($"Conta Poupança - Saldo: {contaP.consultaSaldoDisponivel()}");
+            Console.WriteLine($"Conta Corrente - Saldo: {contaC.consultaSaldoDisponivel()}");
 
-            analistaDeTI.reajustar();
 
-            System.Console.WriteLine($"Agora o salário de {analistaDeTI.nome} é de R$ {analistaDeTI.salario}");
+            // AnalistaDeTI analistaDeTI = new AnalistaDeTI();
+            // Gerente gerente = new Gerente();
+            // GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            // GerenteDeTI gerenteDeTI = new GerenteDeTI();
 
-            System.Console.WriteLine($"======================================================================");
+            // analistaDeTI.nome = "Nal do Canal";
+            // analistaDeTI.salario = 3000;
+
+            // System.Console.WriteLine($"O salário de {analistaDeTI.nome} é R$ {analistaDeTI.salario}");
+
+            // analistaDeTI.reajustar();
+
+            // System.Console.WriteLine($"Agora o salário de {analistaDeTI.nome} é de R$ {analistaDeTI.salario}");
+
+            // System.Console.WriteLine($"======================================================================");
             
-            gerente.nome = "Chosen Undead";
-            gerente.salario = 8000;
+            // gerente.nome = "Chosen Undead";
+            // gerente.salario = 8000;
 
-            System.Console.WriteLine($"O salário de {gerente.nome} é R$ {gerente.salario}");
+            // System.Console.WriteLine($"O salário de {gerente.nome} é R$ {gerente.salario}");
 
-            gerente.reajustar();
+            // gerente.reajustar();
 
-            System.Console.WriteLine($"Agora o salário de {gerente.nome} é de R$ {gerente.salario}");
+            // System.Console.WriteLine($"Agora o salário de {gerente.nome} é de R$ {gerente.salario}");
 
-            System.Console.WriteLine($"======================================================================");
+            // System.Console.WriteLine($"======================================================================");
             
-            gerenteDeAgencia.nome = "Nanami Kento";
-            gerenteDeAgencia.salario = 8000;
+            // gerenteDeAgencia.nome = "Nanami Kento";
+            // gerenteDeAgencia.salario = 8000;
 
-            System.Console.WriteLine($"O salário de {gerenteDeAgencia.nome} é R$ {gerenteDeAgencia.salario}");
+            // System.Console.WriteLine($"O salário de {gerenteDeAgencia.nome} é R$ {gerenteDeAgencia.salario}");
 
-            gerenteDeAgencia.reajustar();
+            // gerenteDeAgencia.reajustar();
 
-            System.Console.WriteLine($"Agora o salário de {gerenteDeAgencia.nome} é de R$ {gerenteDeAgencia.salario}");
+            // System.Console.WriteLine($"Agora o salário de {gerenteDeAgencia.nome} é de R$ {gerenteDeAgencia.salario}");
 
-            System.Console.WriteLine($"======================================================================");
+            // System.Console.WriteLine($"======================================================================");
             
-            gerenteDeTI.nome = "Chosen Undead";
-            gerenteDeTI.salario = 8000;
+            // gerenteDeTI.nome = "Chosen Undead";
+            // gerenteDeTI.salario = 8000;
 
-            System.Console.WriteLine($"O salário de {gerenteDeTI.nome} é R$ {gerenteDeTI.salario}");
+            // System.Console.WriteLine($"O salário de {gerenteDeTI.nome} é R$ {gerenteDeTI.salario}");
 
-            gerenteDeTI.reajustar();
+            // gerenteDeTI.reajustar();
 
-            System.Console.WriteLine($"Agora o salário de {gerenteDeTI.nome} é de R$ {gerenteDeTI.salario}");
+            // System.Console.WriteLine($"Agora o salário de {gerenteDeTI.nome} é de R$ {gerenteDeTI.salario}");
 
             // ContaPoupança contaP1 = new ContaPoupança(123, 700);
             // contaP1.deposita(3500);

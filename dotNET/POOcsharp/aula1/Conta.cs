@@ -4,7 +4,7 @@ using System.Text;
 
 namespace aula1
 {
-    public class Conta
+    public abstract class Conta : IConta // Esses : não significa herança, mas sim implementação, pois tratá-se de uma interface.
     {
         // Construtor
         public Conta(int x, double y = 300)
@@ -15,7 +15,7 @@ namespace aula1
         }
 
         // O nosso modelo de conta terá apenas três ATRIBUTOS: saldo, limite e número.
-        public double saldo {get; private set;} // criando o atributo "saldo";
+        public double saldo {get; protected set;} // criando o atributo "saldo";
         // a palavra get indica que o valor desse atributo pode ser acessado.
         // a palavra set indicia que podemos adicionar algum valor para o atributo saldo.
         public double limite {get; private set;} // criando o atributo "limite";
@@ -31,7 +31,7 @@ namespace aula1
             // utilizando o método.
         }
 
-        public bool saca(double x)
+        public virtual bool saca(double x)
         {
             double saldoDisponivel = this.consultaSaldoDisponivel();
             if (x > saldoDisponivel)
