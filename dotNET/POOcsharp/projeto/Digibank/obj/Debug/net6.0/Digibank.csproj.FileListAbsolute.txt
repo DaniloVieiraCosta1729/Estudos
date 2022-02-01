@@ -1,0 +1,15 @@
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.csproj.AssemblyReference.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.AssemblyInfoInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.AssemblyInfo.cs
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.csproj.CoreCompileInputs.cache
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\Digibank.exe
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\Digibank.deps.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\Digibank.runtimeconfig.json
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\Digibank.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\ref\Digibank.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\bin\Debug\net6.0\Digibank.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\ref\Digibank.dll
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\dotNET\POOcsharp\projeto\Digibank\obj\Debug\net6.0\Digibank.genruntimeconfig.cache
