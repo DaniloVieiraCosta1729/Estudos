@@ -13,12 +13,13 @@ namespace Digibank.Classes
         {
             Console.Clear();
 
-            string linha1 = "Digite a opção desejada:";
-            string linha2 = "1 - Criar Conta";
-            string linha3 = "2 - Entrar com CPF e senha";
-            string separador = "==============================";
+            string espaço = "                                          ";
+            string linha1 = espaço + "Digite a opção desejada:";
+            string linha2 = espaço + "1 - Criar Conta";
+            string linha3 = espaço + "2 - Entrar com CPF e senha";
+            string separador = espaço + "==============================";
 
-            Console.WriteLine($"{linha1, 10}\n{separador, 10}\n{linha2, 10}\n{separador, 10}\n{linha3, 10}");
+            Console.WriteLine($"{linha1}\n{separador}\n{linha2}\n{separador}\n{linha3}");
 
             opcao = byte.Parse(Console.ReadLine());
 
