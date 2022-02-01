@@ -9,15 +9,26 @@ namespace aula1
     {
         public static void Main()
         {
-            ContaPoupança contaP = new ContaPoupança(001, 0);
-            ContaCorrente contaC = new ContaCorrente(001, 100);
+            AnalistaDeTI analistaDeTI = new AnalistaDeTI();
 
-            contaP.deposita(500);
-            contaC.deposita(200);
-            contaP.saca(50);
+            // analistaDeTI.nome = "Galo Cego";
+            analistaDeTI.adicionarNome("Galo", "Cego");
+            analistaDeTI.adicionarSalario(1000);
+            analistaDeTI.reajustar();
 
-            Console.WriteLine($"Conta Poupança - Saldo: {contaP.consultaSaldoDisponivel()}");
-            Console.WriteLine($"Conta Corrente - Saldo: {contaC.consultaSaldoDisponivel()}");
+            // analistaDeTI.salario = 4000;
+
+            Console.WriteLine($"O novo salário de {analistaDeTI.nome} é R$ {analistaDeTI.salario}");
+
+            // ContaPoupança contaP = new ContaPoupança(001, 0);
+            // ContaCorrente contaC = new ContaCorrente(001, 100);
+
+            // contaP.deposita(500);
+            // contaC.deposita(200);
+            // contaP.saca(50);
+
+            // Console.WriteLine($"Conta Poupança - Saldo: {contaP.consultaSaldoDisponivel()}");
+            // Console.WriteLine($"Conta Corrente - Saldo: {contaC.consultaSaldoDisponivel()}");
 
 
             // AnalistaDeTI analistaDeTI = new AnalistaDeTI();
