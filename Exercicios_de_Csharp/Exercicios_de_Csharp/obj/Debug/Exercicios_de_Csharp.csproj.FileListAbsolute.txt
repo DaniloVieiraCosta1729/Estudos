@@ -10,3 +10,6 @@ C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercic
 C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\obj\Debug\Exercicios_de_Csharp.csproj.CoreCompileInputs.cache
 C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\obj\Debug\Exercicios_de_Csharp.exe
 C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\obj\Debug\Exercicios_de_Csharp.pdb
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\bin\Debug\Exercicios_de_Csharp.exe.config
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\bin\Debug\Exercicios_de_Csharp.exe
+C:\Users\danil\Documents\Repositorio\Estudo\Estudos\Exercicios_de_Csharp\Exercicios_de_Csharp\bin\Debug\Exercicios_de_Csharp.pdb
