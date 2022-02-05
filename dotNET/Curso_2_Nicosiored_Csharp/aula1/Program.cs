@@ -50,6 +50,8 @@ namespace Programa01_01
                     case 4:
                         operacao = new Divisao();
                         break;
+                    case 5:
+                        goto saida;
                     default:
                         break;
                 }
@@ -61,6 +63,7 @@ namespace Programa01_01
 
                 Console.ReadLine();
                 Console.Clear();
+                saida:;
 
             }
         }
