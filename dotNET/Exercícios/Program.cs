@@ -10,7 +10,7 @@ namespace Exercicios_de_Csharp
     {
         static void Main(string[] args)
         {
-            exercicio3.Exercicio_3();
+            exercicio5.Exercicio_5();
         }
     }
 }
