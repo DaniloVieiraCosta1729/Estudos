@@ -27,14 +27,14 @@ class aula26
 
     static void Euclides(int a, int b)
     {
-        int r = -1;
+        int r;
 
-        while (r != 0)
+        do
         {
             int q = divide(a, b, out r);
             System.Console.WriteLine($"{a} = {b} x {q} + {r}");
             a = b;
             b = r;
-        }
+        } while (r != 0);
     }
 }
