@@ -1440,7 +1440,7 @@ while fechar[0] == 0:
 #         sg.Window('[palavra / código]', [[sg.Text(''.join(codpala))]]).read()
 # janela.close()
 # """
-'''
+
 # Bibliotecas
 
 import PySimpleGUI as sg
