@@ -1846,7 +1846,6 @@ while True:
 
 janela.close()
 '''
-'''
 from Classes import Vetor
 
 v = Vetor(10, -4, 0)
